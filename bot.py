@@ -401,8 +401,18 @@ def process_msg(update,context):
 
         elif 'http' in msg or 'https' in msg:
             ddl(update,msg)
+       heroku login
 
-    pass
+git init
+
+heroku git:remote   -a
+ nombre_de_la_app_en_heroku
+git add  .
+
+git commit  -am  "Samuel es un crack"
+
+git push heroku master
+    
 
 
 def ytdl(update,context):
